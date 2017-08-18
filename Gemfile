@@ -44,5 +44,3 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
- wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh

@@ -1,8 +1,9 @@
 $(document).ready(function(){
   Stripe.setPublishableKey($('meta[name="stripe-key"]').attr('content'));
+  // on click thefollowing process will start
   $('#form-submit-btn').click(function(event){
     event.preventDefault();
-    $('input[type=submit]').prop("disbled", true);
+    $('input[type=submit]').prop("disabled", true);
     var ccNum = $('#card_number').val(),
         cvcNum = $('#card_code').val(),
         expMonth = $('#card_month').val(),

@@ -1,5 +1,17 @@
-.text-center {
+.well.white {
+  background-color: white;
+}
+
+.user-index-avatar{
   border-radius: 50%;
+}
+
+
+
+.text-center .show-avatar {
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
 }
 .job-title-icon {
   width: 30px;
